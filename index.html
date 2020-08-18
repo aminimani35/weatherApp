@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container my-5 mx-auto">
+      <h1 class="text-muted text-center my-4">Weather App</h1>
+      <form class="change-location text-muted text-center my-4">
+        <label for="city">Enter a City name to get info </label>
+        <input type="text" name="city" class="form-control my-4" />
+      </form>
+
+      <!-- card -->
+      <div class="card shadow-lg rounded">
+        <img
+          src="http://via.placeholder.com/400x300"
+          alt=""
+          class="card-img-top time"
+        />
+
+        <div class="icon mx-auto bg-light text-center">
+          <!-- icon -->
+          <img src="" alt="" />
+        </div>
+
+        <div class="detail text-muted text-center text-uppercase">
+          <!-- details -->
+        </div>
+      </div>
+    </div>
+
+    <script src="/scripts/forecast.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
